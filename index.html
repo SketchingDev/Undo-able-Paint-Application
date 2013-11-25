@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Paint demo with Undo</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <script type="text/javascript" src="src/Vendor/jquery.js"></script>
+        
+        <script type="text/javascript" src="src/FlyingTopHat/Command/CommandInvoker.js"></script>
+        <script type="text/javascript" src="src/FlyingTopHat/Command/commands.js"></script>
+        <script type="text/javascript" src="src/FlyingTopHat/PaintApplication.js"></script>
+        <script type="text/javascript" src="src/bootstrap.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="css/layout.css" />
+    </head>
+    <body>
+        
+        <div>
+            <div id="canvasContainer">
+                <canvas id="paintCanvas" width="250" height="250"></canvas>
+
+                <!-- Controls -->
+                <input id="undo" type="button" value="Undo"/>
+                <input id="clear" type="button" value="Clear"/>
+            </div>
+            <!-- Undo -->
+            <ol id="undoList"></ol>
+        </div>
+        
+    </body>
+</html>

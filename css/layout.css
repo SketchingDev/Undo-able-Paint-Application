@@ -1,0 +1,24 @@
+canvas
+{
+    background-color: antiquewhite;
+    display: block;
+}
+
+#canvasContainer
+{
+    float: left;
+    text-align:center;
+}
+
+#canvasContainer input 
+{
+    width: 40%;
+}
+
+#undoList
+{
+    float: left;
+    height: 250px;
+    width: 100px;
+    overflow: auto;
+}
