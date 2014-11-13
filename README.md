@@ -10,5 +10,5 @@ To generate the project's documentation download [JSDoc 3][3], and then execute 
 
 
   [1]: https://en.wikipedia.org/wiki/Command_pattern
-  [2]: http://
+  [2]: http://www.flyingtophat.co.uk/blog/2014/02/25/undo-functionality.html
   [3]: https://github.com/jsdoc3/jsdoc.git
